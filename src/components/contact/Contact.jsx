@@ -58,7 +58,7 @@ function Contact() {
             type="email"
             onChange= {(e)=>setEmail(e.target.value)}
             required
-            autocomplete="new-password"
+            autoComplete="new-password"
           />
           <textarea 
           rows="7"
@@ -160,10 +160,11 @@ const ContactForm = styled.form`
     justify-content: center;
     border: none;
     outline: none;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
     cursor: pointer;
     :hover{
-      max-width: calc(500px - 12px);
+      /* max-width: calc(500px - 12px); */
+      transform: scale(0.97);
       box-shadow: 6px 6px #ffffff73 , -6px -6px #ffffff73;
     }
   }

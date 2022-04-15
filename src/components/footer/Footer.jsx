@@ -6,7 +6,7 @@ function Footer() {
     <div style={{marginTop:'70px'}}>
       <FooterSection>
         <h2>Manikanta</h2>
-        <p>Made with ❤️</p>
+        <p>Made with ❤️ in 2022</p>
       </FooterSection>
 
     </div>

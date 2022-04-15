@@ -111,7 +111,7 @@ const Tag = styled.h5`
     background-color: #13131d;
     text-transform: capitalize;
     border: 1px dashed var(--color-primary);
-    transition: background-color 0.4s linear;
+    transition: all 0.4s linear;
     :hover{
         background-color: #deedf866;
         color: #1f1f38;
