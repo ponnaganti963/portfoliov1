@@ -21,6 +21,7 @@ const Wrap = styled.div`
     flex-wrap: wrap;
     gap: 10px;
     align-content: flex-start;
+    justify-content: center;
     p{
         padding: 3px 10px;
         border-radius: 15px;
