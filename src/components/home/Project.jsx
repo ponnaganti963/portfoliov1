@@ -23,8 +23,11 @@ function Project({project}) {
             <Imagewrap></Imagewrap>
           </ImageContainer>
           <ProjectContents>
+              <div style={{display:'flex',alignItems: 'center',gap:30}}>
               <span><a href={project.link} target="_blank" rel="noreferrer"><h3>{project.name}</h3></a></span>
               <span><a href={project.github} target="_blank" rel="noreferrer"><GitHubIcon /></a></span>
+              </div>
+              
               <p className="text-light">{project.description}</p>
               {
                   project.tags.map(tag => (
@@ -49,7 +52,7 @@ const ImageContainer =styled.div`
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
-    height: 100%;
+    /* height: 100%; */
     align-self: stretch;
     position: relative;
     @media screen and (max-width: 700px){
@@ -80,6 +83,7 @@ const Imagewrap = styled.span`
 
 const Image =styled.img`
     min-height: 200px;
+    max-height: 250px;
     object-fit: fill;
     border-radius: 10px;
     
@@ -94,9 +98,6 @@ const ProjectContents =styled.div`
     h3{
         text-align: left;
         display: inline-block;
-    }
-    >span:nth-child(2){
-        margin: auto 30px;
     }
     >span{
         cursor: pointer;

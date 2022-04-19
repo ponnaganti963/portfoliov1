@@ -9,14 +9,14 @@ export const myprojects = [
         'img' : 'asserts/whatsapp_clone.png',
         'github' : 'https://github.com/ponnaganti963/whatsapp-clone'
      },
-    {
-       'id' : 1,
-       'name' : 'Netflix Clone',
-       'link' : 'https://netflix-clone-47f59.web.app/',
-       'description' : 'Netflix clone fetchs movies data from themoviedb.',
-        'tags' : ['reactjs','themoviedb','axios'],
-       'img' : 'asserts/Netflix-clone.png',
-       'github' : 'https://github.com/ponnaganti963/netflixclone'
+     {
+      'id' : 1,
+      'name' : 'TO-DO App',
+      'link' : 'https://todo-app-react-4d9c2.web.app/',
+      'description' : 'To-Do react app using firestore database hosted in firebase.',
+       'tags' : ['reactjs','material-ui','firestore','firebase hosting'],
+      'img' : 'asserts/to-do.png',
+      'github': 'https://github.com/ponnaganti963/todo_react'
     },
     
     {
@@ -28,4 +28,59 @@ export const myprojects = [
        'img' : 'asserts/weatherapp.png',
        'github': 'https://github.com/ponnaganti963/weather-app'
     },
+    {
+      'id' : 3,
+      'name' : 'Calculator',
+      'link' : 'https://ponnaganti963.github.io/calculator/',
+      // 'description' : 'React Weather App',
+      //  'tags' : ['reactjs','openweather-api','firebase','firebase hosting'],
+      // 'img' : 'asserts/weatherapp.png',
+      'github': 'https://github.com/ponnaganti963/calculator'
+   },
+   {
+      'id' : 4,
+      'name' : 'Portfolio',
+      'link' : 'https://ponnaganti963.github.io/Portfolio/',
+      // 'description' : 'React Weather App',
+      //  'tags' : ['reactjs','openweather-api','firebase','firebase hosting'],
+      // 'img' : 'asserts/weatherapp.png',
+      'github': 'https://github.com/ponnaganti963/Portfolio'
+   },
+   {
+      'id' : 5,
+      'name' : 'Covid Tracker',
+      'link' : 'https://covid-19-tracker-93322.web.app/',
+      // 'description' : 'React Weather App',
+      //  'tags' : ['reactjs','openweather-api','firebase','firebase hosting'],
+      // 'img' : 'asserts/weatherapp.png',
+      'github': 'https://github.com/ponnaganti963/covidtracker'
+   },
+   {
+      'id' : 6,
+      'name' : 'Netflix Clone',
+      'link' : 'https://netflix-clone-47f59.web.app/',
+      // 'description' : 'Netflix clone fetchs movies data from themoviedb.',
+      //  'tags' : ['reactjs','themoviedb','axios'],
+      // 'img' : 'asserts/Netflix-clone.png',
+      'github' : 'https://github.com/ponnaganti963/netflixclone'
+   },
+   {
+      'id' : 7,
+      'name' : 'Amazon-clone',
+      'link' : 'https://clone-c97c7.web.app/',
+      // 'description' : 'React Weather App',
+      //  'tags' : ['reactjs','openweather-api','firebase','firebase hosting'],
+      // 'img' : 'asserts/weatherapp.png',
+      'github': 'https://github.com/ponnaganti963/amazon-react-clone'
+   },
+   {
+      'id' : 7,
+      'name' : 'Todo app with login',
+      'link' : 'https://fathomless-fortress-60811.herokuapp.com/',
+      // 'description' : 'React Weather App',
+      //  'tags' : ['reactjs','openweather-api','firebase','firebase hosting'],
+      // 'img' : 'asserts/weatherapp.png',
+      'github': 'https://github.com/ponnaganti963/secrets'
+   },
+
   ]
