@@ -19,8 +19,8 @@
 
   --transition: all 400ms ease;
 
-  --container-width-lg: 60%;
-  --container-width-md: 86%;
+  --container-width-lg: 900px;
+  --container-width-md: 900px;
   --container-width-sm: 100%;
 }
 
@@ -40,7 +40,8 @@ body{
 }
 
 .container{
-  width: var(--container-width-lg);
+  width: 100%;
+  max-width: var(--container-width-lg);
   margin: 0 auto;
   position: relative;
 }
@@ -113,9 +114,7 @@ img{
 }
 
 @media screen and (max-width: 1024px){
-    .container {
-      width: var(--container-width-md);
-    }
+
     section {
       margin-top:3rem;
     }

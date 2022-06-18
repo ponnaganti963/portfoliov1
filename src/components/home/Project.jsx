@@ -8,7 +8,7 @@ function Project({project}) {
     const ProjectWrapper =styled.div`
         width: 100%;
         display: flex;
-        align-items: stretch;
+        align-items: start;
         flex-direction: ${project.id%2 === 0 ? "row-reverse" :"row"};
         margin: 30px auto;
         @media screen and (max-width: 700px){
@@ -48,12 +48,11 @@ export default Project;
 
 const ImageContainer =styled.div`
     width: 50%;
-    flex: 1;
+    /* flex: 1; */
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
-    /* height: 100%; */
-    align-self: stretch;
+    height: auto;
     position: relative;
     @media screen and (max-width: 700px){
         width: 100%;
@@ -84,7 +83,7 @@ const Imagewrap = styled.span`
 const Image =styled.img`
     min-height: 200px;
     max-height: 250px;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 10px;
     
 `;

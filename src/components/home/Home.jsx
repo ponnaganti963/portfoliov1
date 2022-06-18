@@ -18,21 +18,46 @@ function Home() {
             }
             else{
                 setCardToggle(false);
-                document.querySelector('.skills').style.color = toggle ? '#478de2' : 'inherit'; ;
+                document.querySelector('.skills').style.color = toggle ? '#478de2' : 'inherit'; 
                 document.querySelector('.tools').style.color = !toggle ? '#478de2' : 'inherit';
                 
             }
         
     },[toggle])
+
+    window.addEventListener('scroll', () => {
+        if(window.innerWidth >= 600){
+            setCardToggle(true);
+            document.querySelector('.skills').style.color = 'inherit'; ;
+            document.querySelector('.tools').style.color =  'inherit';
+            
+        }
+        else{
+            setCardToggle(false);
+            document.querySelector('.skills').style.color = toggle ? '#478de2' : 'inherit'; ;
+            document.querySelector('.tools').style.color = !toggle ? '#478de2' : 'inherit';
+            
+        }
+    });
     
   return (
       <>
-      
+      <div className="container">
+            
+            <h5>Hello This is </h5>
+            <h1>Manikanta</h1>
+            <h5 className="text_light">MERN Stack Developer</h5>
+
+        </div>
+      <section>
       <div className="container">   
+      
             <CTA />
-            <MyImage src="/asserts/profile.jpg" />
+            <MyImage src="/asserts/myimg.jpg" />
             <HeaderSocialmedia />
       </div>
+      </section>
+
         <section>
             <div className="container">
                 <h2>Featured Projects</h2>
@@ -87,11 +112,11 @@ export default Home;
 
 const MyImage = styled.img`
     width: 100%;
-    max-width: 21rem;
-    height: 24rem;
+    max-width: 340px;
+    height: 25rem;
     background-position: top center;
     position: relative;
-    left: calc(50% - 10.5rem);
+    left: calc(50% - 9.8rem);
     margin-top: 2rem;
     border-radius: 0 10rem 0 10rem  ;
     margin:  1.5rem 0;
@@ -100,7 +125,7 @@ const MyImage = styled.img`
     transition: all 0.3s linear;
     
     :hover{
-        border-radius: 6rem;
+        border-radius: 3rem 0;
         transform: scale(0.9);
         box-shadow: 6px 2px 10px #5e5858;
        

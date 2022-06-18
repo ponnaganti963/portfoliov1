@@ -10,13 +10,12 @@ import Invaled from './components/invalid_page';
 import Projects from './components/projects/Projects';
 
 
+
 function App() {
+
   return (
     <>
-    <section>
-
     <Header />
-    </section>
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
